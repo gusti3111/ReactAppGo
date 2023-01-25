@@ -1,0 +1,38 @@
+.card{
+  width: 18rem;
+  margin-bottom: 10px;
+  background-color: gray;
+  margin-left: 10px;
+  border-color: blue;
+  transform-origin: top;
+  transform: perspective(800px) rotateY(0deg);
+  transform-style:preserve-3d ;
+  transition: 0.5s;
+
+ 
+
+}
+.cardlist{
+  display: inline-block;
+
+  
+}
+.cardimg{
+  margin :5px;
+  width: 17rem;
+  opacity: 0.6;
+  border-radius: 10px;
+  max-width: 350px;
+
+  
+
+
+
+}
+.cardlist:hover .card{
+  opacity: 0.1;
+}
+.card:hover{
+  transform: perspective(800px) rotateY(60deg);
+  opacity: 1;
+}
